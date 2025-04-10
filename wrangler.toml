@@ -3,7 +3,7 @@
 name = "your-mj-worker-name"
 
 # Указывает на главный файл воркера в папке src
-main = "src/worker.js"
+main = "./worker.js"
 
 # Важно для стабильности API. Используйте актуальную дату.
 compatibility_date = "2024-03-18" # Или более новая
