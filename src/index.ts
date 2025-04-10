@@ -29,7 +29,7 @@ export default {
     // 4. Выполняем модель AI
     try {
       const response = await env.AI.run(
-        "@cf/stabilityai/stable-diffusion-xl-base-1.0",
+        "@hf/Kvikontent/midjourney-v6",
         inputs
       );
 
