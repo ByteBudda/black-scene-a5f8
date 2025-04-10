@@ -20,6 +20,6 @@
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "wrangler": "^3.0.0" # Или новее, например ^4.0.0
+    "wrangler": "4.10.0"
   }
 }
