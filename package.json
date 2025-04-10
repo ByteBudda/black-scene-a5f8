@@ -1,29 +1,25 @@
 {
-  "name": "black-scene-a5f8",
-  "description": "Generate images based on text prompts.",
-  "cloudflare": {
-    "label": "Text to Image App",
-    "products": [
-      "Workers",
-      "AI"
-    ],
-    "categories": [
-      "ai"
-    ],
-    "icon_urls": [
-      "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/5ca0ca32-e897-4699-d4c1-6b680512f000/public"
-    ],
-    "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/dddfe97e-e689-450b-d5a9-d49801da6a00/public",
-    "dash": true
-  },
-  "devDependencies": {
-    "typescript": "5.8.2",
-    "wrangler": "4.7.0"
-  },
+  "name": "midjourney-v6-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker API for @hf/Kvikontent/midjourney-v6",
+  "main": "src/worker.js",
   "scripts": {
-    "check": "tsc && wrangler --experimental-json-config deploy --dry-run",
-    "deploy": "wrangler --experimental-json-config deploy",
-    "dev": "wrangler --experimental-json-config dev",
-    "types": "wrangler --experimental-json-config types"
+    "start": "npx wrangler dev",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "ai",
+    "huggingface",
+    "midjourney",
+    "image-generation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0" # Или новее, например ^4.0.0
   }
 }
