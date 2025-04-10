@@ -1,7 +1,7 @@
 {
   "compatibility_date": "2025-04-01",
   "main": "src/index.ts",
-  "name": "black-scene-a5f8",
+  "name": "black-scene-a5f3",
   "upload_source_maps": true,
   "ai": {
     "binding": "AI"
