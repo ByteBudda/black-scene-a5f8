@@ -2,7 +2,7 @@
   "name": "midjourney-v6-worker",
   "version": "1.0.0",
   "description": "Cloudflare Worker API for @hf/Kvikontent/midjourney-v6",
-  "main": "src/worker.js",
+  "main": "./worker.js",
   "scripts": {
     "start": "npx wrangler dev",
     "dev": "npx wrangler dev",
