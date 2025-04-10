@@ -1,6 +1,6 @@
 # Замените "your-mj-worker-name" на уникальное имя для вашего воркера.
 # Оно будет частью URL: your-mj-worker-name.your-account.workers.dev
-name = "your-mj-worker-name"
+name = 'black-scene-a5f8'
 
 # Указывает на главный файл воркера в папке src
 main = "./worker.js"
