@@ -80,7 +80,7 @@ export default {
     }
 
     // 5. Готовим входные данные для модели AI
-    const model = '@hf/Kvikontent/midjourney-v6';
+    const model = '@cf/lykon/dreamshaper-8-lcm';
     const inputs = {
       prompt: requestBody.prompt,
       // Добавляем другие параметры из запроса, если они есть
